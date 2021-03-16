@@ -1,8 +1,6 @@
 # Convex_Hull
 
-Premate_Andrea_829777_CH_LP_201907
-
-
+## Obiettivo
 Il progetto consiste nel determinare, data una serie di punti, la corrispondente
 chiglia convessa. Una chiglia convessa di un insieme di punti ha le seguenti proprietà:
 - è insieme convesso
@@ -13,7 +11,7 @@ L'algoritmo da implementare, tuttavia, non corrisponde completamente a quanto de
 sopra poiché le specifiche indicate imponevano il mentenimento dei punti collineari,
 che, di norma, non andrebbero inclusi.
 
-
+## Descrizione Algoritmo
 L'algoritmo funziona nel seguente modo:
 1) Si ha una lista di punti in ingresso; se non lo è già, si procedere a rendere
    tale lista un insieme(vengono eliminati eventuali punti duplicati).
