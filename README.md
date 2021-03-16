@@ -47,13 +47,18 @@ L'algoritmo funziona nel seguente modo:
    CH (il punto che con p0 forma l'angolo maggiore). Se ci sono punti collineari su 
    questa retta allora verrà mantenuto solamente il più lontano! Volendo invece noi 
    mantendere TUTTI i punti collineari abbiamo deciso di procedere nel seguente modo:
+   
 	5.1) si rimuove l'ultimo punto inserito nello stack CH, che chiamiamo Z;
 	     Z era il top(CH).
+	     
 	5.2) si trova nell'insieme di punti iniziale quelli che formano con p0 lo 
 	     stesso angolo di Z.
+	     
         5.3) si ordina l'insieme ottenuto secondo la stessa definizione del punto 3)
+        
 	5.4) si procede con un append tra l'insieme ordinato del punto precedente
 	     e la CH (che ricordiamo era stata privata del suo top).
+	     
    il procedimento descritto è generale e può essere applicato anche quando non si
    presenta il caso particolare sopra citato poiché non si farebbe altro che togliere 
    e rimettere l'ultimo punto della CH (Z, quello che con p0 forma l'angolo maggiore).
