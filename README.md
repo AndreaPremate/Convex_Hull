@@ -1,5 +1,5 @@
 # Convex_Hull
-README Prolog
+
 Premate_Andrea_829777_CH_LP_201907
 
 
