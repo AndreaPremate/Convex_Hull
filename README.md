@@ -53,9 +53,9 @@ L'algoritmo funziona nel seguente modo:
 	     
 	5.2) si trova nell'insieme di punti iniziale quelli che formano con p0 lo 
 	     stesso angolo di Z. 
-	     .
-        5.3) si ordina l'insieme ottenuto secondo la stessa definizione del punto 3
-        
+	     
+	5.3) si ordina l'insieme ottenuto secondo la stessa definizione del punto 3)
+	     
 	5.4) si procede con un append tra l'insieme ordinato del punto precedente
 	     e la CH (che ricordiamo era stata privata del suo top).
 	     
